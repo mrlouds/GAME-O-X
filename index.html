@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+
+#H{
+    border: solid rgb(255, 0, 238);
+    color: #ffd56c;
+    font-style: oblique;
+    font-display: swap;
+    display: flex;
+    position:absolute;
+    width: 350px;
+height: 60px;
+    background-color:#f600cd ;
+    border-radius: 40px;
+        align-items: center;
+
+    text-align: center;
+    justify-content: center;
+box-shadow: 0px 0px 30px #ff00f2 ; 
+    text-shadow: 0 0 13px rgb(0, 8, 255), 0 0 20px rgb(255, 0, 0), 0 0 40px rgb(255, 0, 72);
+text-decoration:double;
+top: 100PX;}
+
+#gm{
+     display: grid;
+     grid-template-columns: repeat(3,100px);
+gap: 10px;
+
+  }
+button{
+    background-color: rgba(26, 26, 158, 0.759);
+    border-radius:20px;
+    border: 0;
+cursor: pointer;
+font-size: 90px;
+color: #ff5cc1;
+    text-shadow: 0 0 10px rgb(60, 0, 255), 0 0 20px rgb(13, 0, 255), 0 0 40px rgb(255, 0, 238);
+    
+font-family:Georgia, 'Times New Roman';
+    width: 100px;
+    height: 100px;
+    padding: 0;
+     display: flex;
+justify-content: center;
+    align-items: center;
+}
+button:hover{width: 103px;
+height: 103px;
+background-color: rgba(255, 0, 204, 0.457);}
+body{
+    margin: 0px;
+        height: 100vh; 
+
+    display: flex;
+justify-content: center;
+    align-items: center;
+  user-select: none;     
+}
+
+</style>
+</head>
+<body style="background-image:linear-gradient(100deg, #0000ff, #2f3fd78c);display: flex; direction: inherit;">
+<h1 style="display: flex;position: absolute; top: 20px;color: #00ff8037;background-image:linear-gradient(100deg, #d000ff4b, #2f6ad78c);border-radius: 5PX;">X \GAME/ O </h1>
+<div id="H">  
+<span  style="font-size: xx-large;" id="h">X starts the game</span>
+</div>
+    <div id="gm" >
+
+        <button   class="box" id="b1"   type="button" onclick="game(this.id)" ></button>
+        <button  class="box"  id="b2"   type="button" onclick="game(this.id)" ></button>
+        <button  class="box"  id="b3"    type="button"onclick="game(this.id)" ></button> 
+
+        <button  class="box"  id="b4"  type="button"  onclick="game(this.id)" ></button>
+        <button  class="box"  id="b5"  type="button"  onclick="game(this.id)" ></button>
+        <button  class="box"  id="b6"  type="button"  onclick="game(this.id)" ></button>
+        <button  class="box"  id="b7"  type="button"  onclick="game(this.id)" ></button>
+        <button  class="box"  id="b8"  type="button"  onclick="game(this.id)" ></button>
+        <button  class="box"  id="b9"  type="button"  onclick="game(this.id)" ></button>
+
+    </div>
+    
+</body>
+<script src="PT4.js"></script>
+</html>
